@@ -3,7 +3,7 @@ require "sinatra/reloader"
 
 register Sinatra::Reloader
 
-STDIN.gets '/' do
+get '/' do
     erb :index
     
 end
