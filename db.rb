@@ -8,8 +8,7 @@ database = "ecsite"
 client = Mysql2::Client.new(host: host, username: username, database: database, password: password)
 
 
- delete_results = client.query("DELETE  FROM products WHERE id=10")
- p delete_results
+ puts client
  
   
 
